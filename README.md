@@ -4,6 +4,10 @@
 
 Following the DU Bootcamp guidelines, I finished up a simple workday calender where you can store which tasks you'd like to accomplish in it over the course of the day. It dynamically changes the html and css based on the time of day, and retains information you've saved before.The application uses Day.Js and jQuery, both linked in the credits area.
 
+## Links
+[Deployed Link](https://annapng.github.io/Work-Day-Planner/)   
+[GitHub Link](https://github.com/annapng/Work-Day-Planner)
+
 ## Screenshot
 
 ![Screenshot of Page, at 11:41 am, including my previously entered info](Assets\Screenshot.png "Screenshot of Page, at 11:41 am, including my previously entered info")
