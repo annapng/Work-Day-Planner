@@ -1,14 +1,14 @@
-// collecting my necessary variables
-  var currentDay = document.getElementById(currentDay);
-  var hour9 = document.getElementById('hour9');
-  var hour10 = document.getElementById('hour10');
-  var hour11 = document.getElementById('hour11');
-  var hour12 = document.getElementById('hour12');
-  var hour13 = document.getElementById('hour13');
-  var hour14 = document.getElementById('hour14');
-  var hour15 = document.getElementById('hour15');
-  var hour16 = document.getElementById('hour16');
-  var hour17 = document.getElementById('hour17');
+// collecting my necessary variables, wrapping them so they'll get collected after the page loads.
+  var currentDay = $(document).getElementById(currentDay);
+  var hour9 = $(document).getElementById('hour9');
+  var hour10 = $(document).getElementById('hour10');
+  var hour11 = $(document).getElementById('hour11');
+  var hour12 = $(document).getElementById('hour12');
+  var hour13 = $(document).getElementById('hour13');
+  var hour14 = $(document).getElementById('hour14');
+  var hour15 = $(document).getElementById('hour15');
+  var hour16 = $(document).getElementById('hour16');
+  var hour17 = $(document).getElementById('hour17');
 
 // calling all my functions to make the local storage work
   work();
@@ -21,11 +21,6 @@
   threePM();
   fourPM();
   fivePM();
-
-
-// Wrap all code that interacts with the DOM in a call to jQuery to ensure that
-// the code isn't run until the browser has finished rendering all the elements
-// in the html. https://api.jquery.com/wrap/
 
 
 function work() {
