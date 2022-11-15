@@ -13,6 +13,14 @@
 // calling all my functions to make the local storage work
   work();
   nineAM();
+  tenAM();
+  elevenAM();
+  twelvePM();
+  onePM();
+  twoPM();
+  threePM();
+  fourPM();
+  fivePM();
 
 
 // Wrap all code that interacts with the DOM in a call to jQuery to ensure that
@@ -72,30 +80,112 @@ function work() {
 
 }
 
-
-
-// TODO: Add a listener for click events on the save button. This code should
-// use the id in the containing time-block as a key to save the user input in
-// local storage. HINT: What does `this` reference in the click listener
-// function? How can DOM traversal be used to get the "hour-x" id of the
-// time-block containing the button that was clicked? How might the id be
-// useful when saving the description in local storage?
-//
-
-// TODO: Add code to get any user input that was saved in localStorage and set
-// the values of the corresponding text area elements. HINT: How can the id
-// attribute of each time-block be used to do this?
-//
-
+// Below are my functions that run from the start - that will get the user input into storage and on refreshes.
+// As with the colors / classes, I'd love to be able to find a more efficient way to solve this problem
 function nineAM() {
-  var saveBtn9am = document.getElementById('9ambtn');
+  var saveBtn9am = document.getElementById("9ambtn");
   var input9am = document.getElementById("9amtext");
 // event listener - when clicked, saved the input data in local storage
   saveBtn9am.addEventListener("click", function () {
     console.log(input9am.value);
-    localStorage.setItem('text9', input9am.value);
+    localStorage.setItem("text9", input9am.value);
   });
 // this line of code below ensures previously entered data pops back up next time you reload the page
-  input9am.textContent = localStorage.getItem('text9');
+  input9am.textContent = localStorage.getItem("text9");
 }
 
+function tenAM() {
+  var saveBtn10am = document.getElementById("10ambtn");
+  var input10am = document.getElementById("10amtext");
+
+  saveBtn10am.addEventListener("click", function () {
+    console.log(input10am.value);
+    localStorage.setItem("text10", input10am.value);
+  });
+
+  input10am.textContent = localStorage.getItem("text10");
+}
+
+function elevenAM() {
+  var saveBtn11am = document.getElementById("11ambtn");
+  var input11am = document.getElementById("11amtext");
+
+  saveBtn11am.addEventListener("click", function () {
+    console.log(input11am.value);
+    localStorage.setItem("text11", input11am.value);
+  });
+
+  input11am.textContent = localStorage.getItem("text11");
+}
+
+function twelvePM() {
+  var saveBtn12pm = document.getElementById("12pmbtn");
+  var input12pm = document.getElementById("12pmtext");
+
+  saveBtn12pm.addEventListener("click", function () {
+    console.log(input12pm.value);
+    localStorage.setItem("text12", input12pm.value);
+  });
+
+  input12pm.textContent = localStorage.getItem("text12");
+}
+
+function onePM() {
+  var saveBtn1pm = document.getElementById("1pmbtn");
+  var input1pm = document.getElementById("1pmtext");
+
+  saveBtn1pm.addEventListener("click", function () {
+    console.log(input1pm.value);
+    localStorage.setItem("text1", input1pm.value);
+  });
+
+  input1pm.textContent = localStorage.getItem("text1");
+}
+
+function twoPM() {
+  var saveBtn2pm = document.getElementById("2pmbtn");
+  var input2pm = document.getElementById("2pmtext");
+
+  saveBtn2pm.addEventListener("click", function () {
+    console.log(input2pm.value);
+    localStorage.setItem("text2", input2pm.value);
+  });
+
+  input2pm.textContent = localStorage.getItem("text2");
+}
+
+function threePM() {
+  var saveBtn3pm = document.getElementById("3pmbtn");
+  var input3pm = document.getElementById("3pmtext");
+
+  saveBtn3pm.addEventListener("click", function () {
+    console.log(input3pm.value);
+    localStorage.setItem("text3", input3pm.value);
+  });
+
+  input3pm.textContent = localStorage.getItem("text3");
+}
+
+function fourPM() {
+  var saveBtn4pm = document.getElementById("4pmbtn");
+  var input4pm = document.getElementById("4pmtext");
+
+  saveBtn4pm.addEventListener("click", function () {
+    console.log(input4pm.value);
+    localStorage.setItem("text4", input4pm.value);
+  });
+
+  input4pm.textContent = localStorage.getItem("text4");
+}
+
+function fivePM() {
+  var saveBtn5pm = document.getElementById("5pmbtn");
+  var input5pm = document.getElementById("5pmtext");
+
+  saveBtn5pm.addEventListener("click", function () {
+    console.log(input5pm.value);
+    localStorage.setItem("text5", input5pm.value);
+  });
+
+  input5pm.textContent = localStorage.getItem("text5");
+}

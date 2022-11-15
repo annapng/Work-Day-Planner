@@ -24,8 +24,8 @@ SO THAT I can manage my time effectively
 [x] THEN each timeblock is color coded to indicate whether it is in the past, present, or future
 [x] WHEN I click into a timeblock
 [x] THEN I can enter an event
-[ ] WHEN I click the save button for that timeblock
-[ ] THEN the text for that event is saved in local storage
-[ ] WHEN I refresh the page
-[ ] THEN the saved events persist
+[x] WHEN I click the save button for that timeblock
+[x] THEN the text for that event is saved in local storage
+[x] WHEN I refresh the page
+[x] THEN the saved events persist
 
