@@ -10,7 +10,7 @@ Following the DU Bootcamp guidelines, I finished up a simple workday calender wh
 
 ## Screenshot
 
-![Screenshot of Page, at 11:41 am, including my previously entered info](Assets\Screenshot.png)
+![Screenshot of Page, at 11:41 am, including my previously entered info](Screenshot.png)
 
 
 ## User Story
